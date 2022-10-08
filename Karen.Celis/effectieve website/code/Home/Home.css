@@ -1,0 +1,498 @@
+*{margin:0px; padding:0px;}
+
+body{
+    font-family: 'Sen', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    margin-top:60px;
+}
+
+/*navigatie home */
+
+
+.photo-nav{
+    width:100%;
+    min-height:100vh;
+    background-image:url(../../afbeeldingen/home/Rectangle\ 5.png);
+    background-position: center;
+    background-size:cover
+    
+
+}
+.navBar ul{
+    background:rgba(0, 0, 0, 0.5);
+    padding:25px;
+    list-style: none;
+    
+}
+
+.navBar ul li{
+    display:inline-block;
+    font-family: 'Sen',sans-serif;
+    font-size:19px;
+    margin-right: 70px;
+  
+}
+
+.navBar ul li a{
+    color:white;
+    text-decoration: none;
+  }
+
+  .iconToHome{
+      font-size:35px;
+      margin-right: 250px;
+      padding-left: 50px;
+  }
+ 
+/*hover nav*/
+.withHover {
+    position: relative;
+    text-decoration: none;
+    
+  
+  }
+  
+  .withHover:after{
+   content:"";
+   position: absolute;
+   background-color: white;
+   height: 3px;
+   width:0;
+   left:3px;
+   bottom:-10px;
+   transition: 0.3s;
+   
+   
+  
+  }
+  .withHover:hover:after{ 
+     width:90%;
+      
+  }
+  /*margin*/
+  .navBar ul li:nth-child(1){
+    margin-right:10px;  
+    }
+
+  .navBar ul li:nth-child(2){
+margin-right:50px;  
+margin-left:0px;
+}
+
+.navBar ul li:nth-child(3){
+    margin-right:0px; 
+    margin-left:60px;  
+    }
+.navBar ul li:nth-child(4){
+    margin-left:100px;  
+    }
+    .navBar ul li:nth-child(5){
+        margin-left:30px;  
+        margin-right:20px;
+        }
+   
+/*witruimte*/
+.witruimte{
+    background-color: white;
+    width: 100%;
+    padding:60px 0 40px 0;
+}
+   
+
+/*reisgids continentaal*/
+.h-continentaal{
+    width:100%;
+    height:80%;
+    padding-bottom:20px;
+    background-image:url(../../afbeeldingen/home/back\ reisgids.png);
+    background-position: center;
+    background-size:cover
+
+}
+#jumpReisgids{
+    margin-bottom: 60px;
+    margin-top:170px;
+    
+}
+
+.continentLineOne ul li{
+
+    text-decoration: none;
+    display: inline-block;
+    font-size:47px;
+    text-align: center;
+    margin-top:25vh;
+    color:white;
+
+}
+
+.continentLineOne ul li:nth-child(1){
+    padding-left:35vh;
+    padding-right:35vh;
+        
+}
+.continentLineOne ul li:nth-child(2){
+    padding:0%;
+    margin-bottom: 0%;
+        
+}
+.continentLineOne ul li:nth-child(3){
+    padding-right:21vh;
+    padding-left:38.5vh;
+        
+}
+
+.continentLineTwo ul li{
+    text-decoration: none;
+    display: inline-block;
+    font-size:47px;
+    text-align: center;
+    padding-top:210px;
+    padding-bottom: 20vh;
+    
+    color:white;
+
+
+}
+
+
+.continentLineTwo ul li:nth-child(1){
+    padding-left:34vh;
+    padding-right:27vh;
+    margin-right:20px;
+    
+        
+}
+
+
+.continentLineTwo ul li:nth-child(3){
+    padding-right:21vh;
+    padding-left:30vh;
+        
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    color:white;
+
+}
+
+/*continent1*/
+
+.continentLineOne ul li a:after{
+    content:"";
+    position: absolute;
+    background-color: white;
+    height: 5px;
+    width:0;
+    left:0;
+    bottom:-10px;
+    transition: 0.3s;
+    
+  
+  }
+  .continentLineOne ul li a:hover:after{ 
+      width:100%;
+       
+  }
+/*continent2*/
+.continentLineTwo ul li a:after{
+   content:"";
+   position: absolute;
+   background-color: white;
+   height: 5px;
+   width:0;
+   left:0;
+   bottom:-10px;
+   transition: 0.3s;
+   
+ 
+ }
+ .continentLineTwo ul li a:hover:after{ 
+     width:100%;
+      
+ }
+
+ 
+/*blog*/
+
+.h-blog{
+    width:100%;
+    height:100vh;
+    padding-top: 40px;
+    
+    background-image:url(../../afbeeldingen/home/volg\ ons.png);
+    background-position: center;
+    background-size:cover
+    
+}
+.h-tekst-display
+{
+    display:inline-block;
+}
+
+.h-blog h1{
+    color:white;
+    text-align:start;
+    padding-top:70px;
+    margin-left: 120px;
+    
+}
+
+span {
+    margin-left:110px;
+}
+
+.buttonInstaBlog {
+font-size:30px;
+background-color: transparent;
+border:white;
+border-left:transparent;
+top: 30px;
+
+}
+
+.buttonInstaBlog:hover{
+    color:#C25F3D;
+}
+
+
+
+/*reisadvies*/
+
+.h-reisadvies{
+    width:100%;
+    min-height:100vh;
+    background-image:url(../../afbeeldingen/home/tweede\ reisadvies.png);
+    background-position: center;
+    background-size:cover
+    
+    
+}
+
+
+/*button meepakken*/
+    .containerMeepakken{
+        background-image:url(../../afbeeldingen/home/meepakken.png);
+        width:290px;height:290px;
+        display:inline-block;
+    }
+     .buttonBriefcase {
+         background-color: transparent;
+         border:transparent;
+         top:35%;
+         right:2%;
+         color:white;
+         margin-left:100px;
+     }
+    .buttonBriefcase:hover{
+         color:#E6E6E6;
+         
+     }
+     ion-icon {
+        font-size: 100px;
+      }
+
+      /*button veiligheid*/
+      .containerVeiligheid{
+        background-image:url(../../afbeeldingen/home/veiligheid.png);
+        width:290px;height:290px;
+        display:inline-block;
+        margin-left:30px;
+    }
+     .buttonFirstAid{
+         background-color: transparent;
+         border:transparent;
+         top:35%;
+         color:white;
+         margin-left:100px;
+        }
+    .buttonFirstAid:hover{
+         color:#E6E6E6;}
+         
+
+      /*button verzekering*/
+
+      .containerVerzekering{
+        background-image:url(../../afbeeldingen/home/verzekering.png);
+        width:290px;height:290px;
+        display:inline-block;
+        margin-left:30px;
+    }
+     .buttonHouse {
+         background-color: transparent;
+         border:transparent;
+         top:35%;
+         color:white;
+         margin-left:100px;
+
+     }
+    .buttonHouse:hover{
+         color:#E6E6E6;}
+
+         /*paspoort*/
+
+         .containerVisa{
+            background-image:url(../../afbeeldingen/home/pasport.png);
+            width:290px;height:290px;
+            display:inline-block;
+            margin-left:30px;
+            
+        }
+         .buttonWallet {
+             background-color: transparent;
+             border:transparent;
+             top:35%;
+             color:white;
+             margin-left:100px;
+ }
+
+ 
+        .buttonWallet:hover{
+             color:#E6E6E6;}
+
+             .alleContainersReisadvies{
+                 margin-top:100px;
+                 margin-left:110px;
+             }
+        
+             /*tekst onder de afb*/
+
+ .h-reisadvies ul li{
+     font-size:30px;
+     display: inline-block;
+     margin-top:50px;
+     margin-left:170px;
+                  }
+
+ .h-reisadvies ul li:nth-child(4){
+     margin-left:140px;}
+
+
+/*sign up*/
+
+.meldaan{
+    width:100%;
+    margin: 60px 0 0 0;
+    padding-top: 60px;
+    padding-bottom:200px;
+    background-image:url(../../afbeeldingen/home/Sign\ up.png);
+    background-position: center;
+    background-size:cover;
+    background-position: absolute;
+}
+
+.meldaan h1{
+    color:white;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top:30px;
+       
+}
+
+.meldaan p{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+   margin-top:10px;
+    position: relative;
+    margin-bottom:40px;
+
+}
+
+input[type="email"]{
+    font-family: 'Sen',sans-serif;
+    background-color: transparent;
+    border: solid white;
+    padding:8px 400px 8px 17px;
+    color:white;
+    font-size: 16px;
+    position: relative;
+        
+}
+.mail:focus{
+    outline: transparent;
+    caret-color: white;
+    position: relative;
+}
+button[type="submit"]{
+    
+    background-color: transparent;
+    border: solid white;
+
+    color:white;
+    padding:8px 40px 8px 40px;
+    position: relative; 
+}
+.submitSignUp{
+    font-family: 'Sen',sans-serif;
+    font-size:16px;
+    color: white;
+    position: relative;
+}
+.submitSignUp:hover, .mail:hover{
+    background:rgba(0, 0, 0, 0.3);
+}
+.containerMeldaan{
+    margin-bottom:60px;
+    padding-top:40px;
+    text-align: center;
+}
+
+/*footer*/
+
+.footer{
+    background-color:#C25F3D ;
+    width: 100%;
+    padding-top:100px;
+    padding-bottom:200px;
+    
+    background-position: center;
+   
+}
+
+.footerColor{
+    display:inline-block;
+    margin-left:130px;
+    margin-top:40px;
+}
+
+.footer p{
+    color: white;
+    font-size:25px;
+    display:inline-block;
+
+}
+
+
+/*buttons footer*/
+
+
+.footer ion-icon{
+    font-size:30px;
+   
+}
+
+
+.buttonInsta, .buttonPinterest, .buttonContact, .buttonTwitter, .buttonFacebook{
+    color:white;
+    padding-left:40px;
+    
+}
+.buttonInsta:hover, .buttonPinterest:hover, .buttonContact:hover, .buttonTwitter:hover, .buttonFacebook:hover{
+    color:#E6E6E6;}
+
+
+.buttonContact{
+    padding-right:600px;
+   
+}
+
+
+
